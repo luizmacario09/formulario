@@ -84,3 +84,7 @@ img{
 #check{
     display: inline-block;
 }
+@media (min-width: 600px){
+    .column {
+      width: 50%;
+    }}
