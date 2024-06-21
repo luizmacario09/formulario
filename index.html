@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        
+        <h1 id="titulo">Cadastro Técnico em Informática</h1>
+
+        <p id="subtitulo">Complete com as suas informações profissionais</p>
+        <img src="https://cdn-icons-png.flaticon.com/512/7442/7442635.png" alt="">
+        <br>
+
+    </div>
+    <form action="">
+        <fieldset class="grupo">
+            <div class="campo">
+                <label for="nome">Nome</label>
+                <input type="text" name="nome" id="nome" required>
+            </div>
+
+            <div class="campo">
+                <label for="sobrenome">Sobrenome</label>
+                <input type="text" name="sobrenome" id="sobrenome" required>
+            </div>
+
+            <div class="campo">
+                <label for="telefone">Número de telefone</label>
+                <input type="number" name="telefone" id="telefone" required>   
+            </div>
+        </fieldset>
+
+        <div>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" required>
+        </div>
+
+        <div>
+            <label for="diaa">Informe a data do seu aniversário:</label>
+            <input type="date" id="diaa" name="diaa" />
+          </div>
+
+        <select id="estado" name="estado">
+            <option value="AC">Acre</option>
+            <option value="AL">Alagoas</option>
+            <option value="AP">Amapá</option>
+            <option value="AM">Amazonas</option>
+            <option value="BA">Bahia</option>
+            <option value="CE">Ceará</option>
+            <option value="DF">Distrito Federal</option>
+            <option value="ES">Espírito Santo</option>
+            <option value="GO">Goiás</option>
+            <option value="MA">Maranhão</option>
+            <option value="MT">Mato Grosso</option>
+            <option value="MS">Mato Grosso do Sul</option>
+            <option value="MG">Minas Gerais</option>
+            <option value="PA">Pará</option>
+            <option value="PB">Paraíba</option>
+            <option value="PR">Paraná</option>
+            <option value="PE">Pernambuco</option>
+            <option value="PI">Piauí</option>
+            <option value="RJ">Rio de Janeiro</option>
+            <option value="RN">Rio Grande do Norte</option>
+            <option value="RS">Rio Grande do Sul</option>
+            <option value="RO">Rondônia</option>
+            <option value="RR">Roraima</option>
+            <option value="SC">Santa Catarina</option>
+            <option value="SP">São Paulo</option>
+            <option value="SE">Sergipe</option>
+            <option value="TO">Tocantins</option>
+            <option value="EX">Estrangeiro</option>
+        </select>
+
+        <div>
+            <label for="desenvolve">De qual lado das aplicações você desenvolve?</label><br>
+            <label>
+                <input type="radio" name="devweb" value="frontend"> Front-End
+            </label><br>
+            <label>
+                <input type="radio" name="devweb" value="backend" > Back-End
+            </label><br>
+            <label>
+                <input type="radio" name="devweb" value="fullstack" > FullStack
+            </label>
+        </div>
+
+        <fieldset>
+            <div id="check">
+                <label>Linguagens tecnológicas que você tem experiência:</label>
+                <br>
+                <input type="checkbox" name="tecnologia1" id="tecnologia1" value="HTML">
+                <label for="tecnologia1">HTML</label>
+                <br>
+                <input type="checkbox" name="tecnologia2" id="tecnologia2" value="CSS">
+                <label for="tecnologia2">CSS</label>
+                <br>
+                <input type="checkbox" name="tecnologia3" id="tecnologia3" value="JAVASCRIPT">
+                <label for="tecnologia1">JavaScript</label>
+                <br>
+                <input type="checkbox" name="tecnologia4" id="tecnologia4" value="PHP">
+                <label for="tecnologia1">PHP</label>
+                <br>
+                <input type="checkbox" name="tecnologia5" id="tecnologia5" value="C#">
+                <label for="tecnologia1">C#</label>
+                <br>
+                <input type="checkbox" name="tecnologia6" id="tecnologia6" value="PYTHON">
+                <label for="tecnologia6">PYTHON</label>
+                <br>
+                <input type="checkbox" name="tecnologia7" id="tecnologia7" value="JAVA">
+                <label for="tecnologia7">JAVA</label>
+                <br>
+                <input type="checkbox" name="tecnologia8" id="tecnologia8" value="OUTRA">
+                <label for="tecnologia8">OUTRA</label>
+            </div>
+            <div>
+                <label for="">Qual estágio você finalizou?</label><br>
+                <label>
+                    <input type="radio" name="devweb" value="ef" >Ensino fundamental I
+                </label><br>
+                <label>
+                    <input type="radio" name="devweb" value="ef1" >Ensino fundamental II
+                </label><br>
+                <label>
+                    <input type="radio" name="devweb" value="em" >Ensino médio completo
+                </label><br>
+                <label>
+                    <input type="radio" name="devweb" value="em2" >Ensino médio imcompleto
+                </label><br>
+                <label>
+                    <input type="radio" name="devweb" value="es" >Ensino superior
+                </label><br>
+                <label>
+                    <input type="radio" name="devweb" value="em" >Mestre/Doutorado/Licenciatura
+                </label><br>
+
+                
+
+            </div>
+        </fieldset class=grupo>
+        <div>
+            <br>
+            <label>Conte sobre as suas experiências:</label><br>
+            <textarea row="6"  style="width: 26em" name="experiencia" id="experiencia"></textarea>
+        </div>
+        <button class="botao" type="submit">Concluído</button>
+
+    </form>
+</body>
+</html>
